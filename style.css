@@ -1,0 +1,48 @@
+
+body{
+    background-color: #EFF2F6;
+}
+
+h1 {
+    text-align: center;
+    color: grey;
+}
+
+hr {
+    border-color: grey;
+    border-style: dotted none none;
+    border-width: 4px;
+}
+
+h3, h4 {
+    text-align: center;
+    color: #5C83AC;
+    text-decoration: #F9BD9E;
+    text-decoration-style: dotted;
+    text-decoration-width: 2px;
+}
+
+#inputs {
+    display: flex;
+    align-content: center;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+#operatie {
+    display: flex;
+    align-content: center;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+#reset {
+    align-items: center;
+    flex-direction: row;
+}
+
+button {
+    background-color: #EFF2F6;
+    color: #5C83AC;
+    border-color: #5C83AC;
+}

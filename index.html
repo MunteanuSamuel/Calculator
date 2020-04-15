@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="icon">
+</head>
+<body>
+<title>CALCULATOR</title>
+<h1>CALCULATOR</h1>
+<hr><br>
+<div id="inputs">
+<h3>Alege primul numar</h3>
+<input type="number" id="x"><br>
+<h3>Alege al doilea numar</h3>
+<input type="number" id="y"><br>
+</div>
+<br>
+
+<h3>Alege operatia dorita</h3>
+
+<div id="operatie">
+    <button id="adunare" onclick="afiseazaAdunare()">Adunare</button>
+    <button id="scadere" onclick="afiseazaScadere()">Scadere</button>
+    <button id="inmultire" onclick="afiseazaInmultire()">Inmultire</button>
+    <button id="impartire" onclick="afiseazaImpartire()">Impartire</button>
+</div><br>
+
+<h4>Rezultatul operatiei este: </h4><br>
+<div id="reset">
+<button onclick="reseteazaRezultat()">Reset Rezultat</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
